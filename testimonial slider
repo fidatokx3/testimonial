@@ -1,0 +1,135 @@
+<style>
+#demo {
+  background: linear-gradient(112deg, #ffffff 50%, antiquewhite 50%);
+  max-width: 900px;
+  margin: auto ;
+  height: 391px;
+}
+
+.carousel-caption1 {
+  position: initial;
+  z-index: 10;
+  padding: 5rem 8rem;
+  color: rgba(78, 77, 77, 0.856);
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 2rem
+}
+
+@media(max-width:767px) {
+  .carousel-caption1 {
+      position: initial;
+      z-index: 10;
+      padding: 3rem 2rem;
+      color: rgba(78, 77, 77, 0.856);
+      text-align: center;
+      font-size: 0.7rem;
+      font-style: italic;
+      font-weight: bold;
+      line-height: 1.5rem
+  }
+}
+
+.carousel-caption1 img {
+  width: 6rem;
+  border-radius: 5rem;
+  margin-top: 2rem
+}
+
+@media(max-width:767px) {
+  .carousel-caption1 img {
+      width: 4rem;
+      border-radius: 4rem;
+      margin-top: 1rem
+  }
+}
+
+#image-caption {
+  font-style: normal;
+  font-size: 1rem;
+  margin-top: 0.5rem
+}
+
+@media(max-width:767px) {
+  #image-caption {
+      font-style: normal;
+      font-size: 0.6rem;
+      margin-top: 0.5rem
+  }
+}
+
+ .scrolli{
+  background-color: rgb(6 15 80);
+  padding: 1.4rem
+}
+
+@media(max-width:767px) {
+  .scrolli {
+      padding: 0.8rem
+  }
+}
+
+.carousel-control-prev {
+  justify-content: flex-start
+}
+
+.carousel-control-next {
+  justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  transition: none;
+  opacity: unset
+}
+/* end m1*/ 
+
+</style>
+
+
+
+<div class="container testmonial1">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-caption1">
+                    <p> Great Service For Web Creation , Premium Service . Instant Support  </p> <img src="img/user1.jpg">
+                    <div id="image-caption">Emma watson </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption1">
+                    <p>WordPress Theme Design and Development Work For a Professional Website </p> <img src="img/user2.jpg" class="img-fluid">
+                    <div id="image-caption">Jasika Greves</div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption1">
+                    <p>Theme Design For my WordPress Website , Very Unique and Attractive</p> <img src="img/user3.jpg" class="img-fluid">
+                    <div id="image-caption">Pianka watson</div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption1">
+                  <p>A Custom Function i have added for my finance System , and its work so much well </p> <img src="img/user4.jpg" class="img-fluid">
+                  <div id="image-caption">lara ja</div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption1">
+                <p>PHP Website Looking Great and Professional . Good Job!</p> <img src="img/user5.jpg" class="img-fluid">
+                <div id="image-caption">anna ria</div>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption1">
+              <p>A Secure and Fast Loading Website a Ever Seen . User Friendly!</p> <img src="img/user6.jpg" class="img-fluid">
+              <div id="image-caption">Git lab</div>
+          </div>
+      </div>
+        </div> <a class="carousel-control-prev" href="#demo" data-slide="prev"> <i class='fas fa-arrow-left scrolli'></i> </a> <a class="carousel-control-next " href="#demo" data-slide="next"> <i class='fas fa-arrow-right scrolli'></i> </a>
+    </div>
+</div>
+  <!-- testm1  end -->
